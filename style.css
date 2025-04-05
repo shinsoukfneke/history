@@ -1,40 +1,17 @@
 h1 {
-   font-size: 80px;
-   position: absolute;
-   margin-top: 400px;
-   margin-left: 400px;
-   text-shadow: 2px 2px 6px black;
+    font-size: 80px;
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 400px;
+    text-shadow: 2px 2px 6px black;
 }
-
-button {
-   position: absolute;
-   top: 530px;
-   left: 660px;
-   height: 50px;
-   width: 200px;
-   color: white;
-   font-size: 20px;
-   font-weight: bold;
-   background-image: url('button.png');
-   background-size: 340px 90px;
-   background-position: center;
-   background-repeat: no-repeat;
-   border: none;
-   border-radius: 5px;
-   
-
-}
-
 
 body {
     background-image: url('page2.jpg');
     background-size: 1540px 740px;
     background-position: top;
     background-repeat: no-repeat;
-
-
 }
-
 
 .circle {
     width: 300px;
@@ -49,4 +26,43 @@ body {
     right: 40%;
     top: 12%;
     box-shadow: 15px 15px 30px rgba(0,0,0,0.5);
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 8px;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.top-right {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 999;
+}
+
+.custom-button {
+    position: absolute;
+    top: 530px;
+    left: 660px;
+    height: 50px;
+    width: 200px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    background-image: url('button.png');
+    background-size: 340px 90px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 50px; 
+    text-decoration: none;
+    display: inline-block;
 }
