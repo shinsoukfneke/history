@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>History</title>
+    <link rel="stylesheet" href="3.css">
+</head>
+<body>
+
+
+    <div class="grid-container">
+        <div class="grid-item" onclick="openModal('pic1.jpg', 'View of the Rizal Park, Finance Building, Legislative Building, and Manila City Hall. Photo taken between 1940 and 1950. From the American Geographical Society Library, University of Wisconsin-Milwaukee Libraries.')">
+            <img src="pic1.jpg" alt="Image 1">
+            <p>View of the Rizal Park</p>
+        </div>
+        <div class="grid-item" onclick="openModal('pic2.jpg', 'Boats docked along the Pasig River waterfront in Manila in the 1950s. From the American Geographical Society Library, University of Wisconsin-Milwaukee Libraries.')">
+            <img src="pic2.jpg" alt="Image 2">
+            <p>Pasig River waterfront in Manila in the 1950's</p>
+        </div>
+        <div class="grid-item" onclick="openModal('pic3.jpg', 'A variety of transportation on a Manila street. Photo taken between 1959 and 1961. From the American Geographical Society Library, University of Wisconsin-Milwaukee Libraries.')">
+            <img src="pic3.jpg" alt="Image 3">
+            <p>Manila Street 1959-1961</p>
+        </div>
+        <div class="grid-item" onclick="openModal('pic4.jpg', 'Philippine General Hospital 1910-1915')">
+            <img src="pic4.jpg" alt="Image 4">
+            <p>Philippine General Hospital 1910-1915</p>
+        </div>
+        <div class="grid-item" onclick="openModal('pic5.jpg', 'American Troops on Ramparts at Manila. Edward H. Hart, photographer; [between 1898-1901]. Detroit Publishing Company. Prints & Photographs Division')">
+            <img src="pic5.jpg" alt="Image 5">
+            <p>American Troops on Ramparts at Manila 1898=1901</p>
+        </div>
+        <div class="grid-item" onclick="openModal('pic6.jpg', 'This undated photo shows a man on a hammock–presumed by some historians to be Apolinario Mabini–guarded by American soldiers including an officer on horseback.')">
+            <img src="pic6.jpg" alt="Image 6">
+            <p>Apolinario Mabini-guarded by American Soldiers</p>
+        </div>
+        <div class="grid-item" onclick="openModal('pic7.jpg', 'General Gregorio del Pilar and troops in Pampanga')">
+            <img src="pic7.jpg" alt="Image 7">
+            <p>General Gregorio del Pilar and troops in Pampanga</p>
+        </div>
+        <div class="grid-item" onclick="openModal('pic8.jpg', 'Homeless children who lived through bombardment of Intramuros in Manila in the Philippines on 23 February 1945')">
+            <img src="pic8.jpg" alt="Image 8">
+            <p>Homeless children who lived through bombardment of Intramuros in Manila</p>
+        </div>
+        <div class="grid-item" onclick="openModal('pic9.jpg', 'World War II: Allied forces recaptured Manila in the aftermath of its recapture by Allied forces in early 1945.')">
+            <img src="pic9.jpg" alt="Image 9">
+            <p>World War II</p>
+        </div>
+    </div>
+
+    
+    <div id="imageModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img id="modalImage" class="modal-content">
+        <p id="modalDescription" class="modal-text"></p>
+    </div>
+
+    <script src="3.js"></script>
+</body>
+</html>

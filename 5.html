@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="5.css"/>
+    <title>History</title>
+</head>
+<body>
+
+    <div class="middle-gallery">
+        <div class="image-box" onclick="showModal('Emilio Aguinaldo')">
+            <p class="name">Emilio Aguinaldo</p>
+            <img class="person" src="aguinaldo.png" alt="Aguinaldo">
+        </div>
+        <div class="image-box" onclick="showModal('Jose Rizal')">
+            <p class="name">Jose Rizal</p>
+            <img class="person" src="rizal.png" alt="Rizal">
+        </div>
+        <div class="image-box" onclick="showModal('Gabriela Silang')">
+            <p class="name">Gabriela Silang</p>
+            <img class="person" src="silang.png" alt="Silang">
+        </div>
+        <div class="image-box" onclick="showModal('Andres Bonifacio')">
+            <p class="name">Andres Bonifacio</p>
+            <img class="person" src="bonifacio.png" alt="Bonifacio">
+        </div>
+        <div class="image-box" onclick="showModal('Apolinario Mabini')">
+            <p class="name">Apolinario Mabini</p>
+            <img class="person" src="mabini.png" alt="Mabini">
+        </div>
+        <div class="image-box" onclick="showModal('Manuel L. Quezon')">
+            <p class="name">Manuel L. Quezon</p>
+            <img class="person" src="quezon.png" alt="Quezon">
+        </div>
+        <div class="image-box" onclick="showModal('Benigno Aquino Jr.')">
+            <p class="name">Benigno Aquino Jr.</p>
+            <img class="person" src="aquino.png" alt="Aquino">
+        </div>
+        <div class="image-box" onclick="showModal('Marcelo H. del Pilar')">
+            <p class="name">Marcelo H. del Pilar</p>
+            <img class="person" src="pilar.png" alt="Pilar">
+        </div>
+        <div class="image-box" onclick="showModal('Antonio Luna')">
+            <p class="name">Antonio Luna</p>
+            <img class="person" src="luna.png" alt="Luna">
+        </div>
+        <div class="image-box" onclick="showModal('Lapu-Lapu')">
+            <p class="name">Lapu-Lapu</p>
+            <img class="person" src="lapu.png" alt="Lapu-Lapu">
+        </div>
+    </div>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeModal()">&times;</span>
+            <h2 id="hero-name"></h2>
+            <p id="hero-desc"></p>
+        </div>
+    </div>
+
+    <script src="5.js"></script>
+</body>
+</html>

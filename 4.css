@@ -1,0 +1,99 @@
+body {
+    background-image: url('bookbg.jpg');
+    background-size: 1530px 790px;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.photo {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 50px; 
+    max-width: 1270px;
+    margin: auto;
+    position: relative;
+    top: 30px;
+       
+}
+
+.pic-border {
+    width: 180px;
+    height: 280px;
+    border: 15px solid transparent;
+    border-image: url('border.png') 80 90 stretch;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pic-border img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.photo-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px; 
+}
+
+
+.poem {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 10; 
+    max-width: 1110px;
+    margin: auto;
+    position: relative;
+    top: 60px;
+
+}
+
+.basta-border {
+    height: 250px;
+    width: 170px;  
+    border: 15px solid transparent;
+    border-image: url('border.png') 80 90 stretch;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.basta-border img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.pic-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; 
+}
+
+
+.read-button {
+    display: inline-block;
+    padding: 10px 30px;
+    border: none;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-image: url('button.png');
+    background-size: 158px 72px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    text-decoration: none;
+    text-align: center;
+}
+

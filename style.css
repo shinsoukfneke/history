@@ -1,0 +1,52 @@
+h1 {
+   font-size: 80px;
+   position: absolute;
+   margin-top: 400px;
+   margin-left: 400px;
+   text-shadow: 2px 2px 6px black;
+}
+
+button {
+   position: absolute;
+   top: 530px;
+   left: 660px;
+   height: 50px;
+   width: 200px;
+   color: white;
+   font-size: 20px;
+   font-weight: bold;
+   background-image: url('button.png');
+   background-size: 340px 90px;
+   background-position: center;
+   background-repeat: no-repeat;
+   border: none;
+   border-radius: 5px;
+   
+
+}
+
+
+body {
+    background-image: url('page2.jpg');
+    background-size: 1540px 740px;
+    background-position: top;
+    background-repeat: no-repeat;
+
+
+}
+
+
+.circle {
+    width: 300px;
+    height: 300px;
+    background-image: url('logo.png');
+    background-size: 350px 350px;
+    background-color: #3e2723;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    position: absolute;
+    right: 40%;
+    top: 12%;
+    box-shadow: 15px 15px 30px rgba(0,0,0,0.5);
+}
