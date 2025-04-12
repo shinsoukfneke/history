@@ -9,55 +9,55 @@
 <body>
 
     <div class="middle-gallery">
+        <div class="image-box" onclick="showModal('Melchora Aquino')">
+            <img class="person" src="b1.jpg">
+            <p class="name">Melchora Aquino</p>
+        </div>
         <div class="image-box" onclick="showModal('Emilio Aguinaldo')">
+            <img class="person" src="b2.jpg">
             <p class="name">Emilio Aguinaldo</p>
-            <img class="person" src="aguinaldo.png" alt="Aguinaldo">
         </div>
         <div class="image-box" onclick="showModal('Jose Rizal')">
+            <img class="person" src="b3.jpg">
             <p class="name">Jose Rizal</p>
-            <img class="person" src="rizal.png" alt="Rizal">
         </div>
         <div class="image-box" onclick="showModal('Gabriela Silang')">
+            <img class="person" src="b4.jpg">
             <p class="name">Gabriela Silang</p>
-            <img class="person" src="silang.png" alt="Silang">
-        </div>
-        <div class="image-box" onclick="showModal('Andres Bonifacio')">
-            <p class="name">Andres Bonifacio</p>
-            <img class="person" src="bonifacio.png" alt="Bonifacio">
         </div>
         <div class="image-box" onclick="showModal('Apolinario Mabini')">
+            <img class="person" src="b5.jpg">
             <p class="name">Apolinario Mabini</p>
-            <img class="person" src="mabini.png" alt="Mabini">
         </div>
         <div class="image-box" onclick="showModal('Manuel L. Quezon')">
+            <img class="person" src="b6.jpg">
             <p class="name">Manuel L. Quezon</p>
-            <img class="person" src="quezon.png" alt="Quezon">
-        </div>
-        <div class="image-box" onclick="showModal('Benigno Aquino Jr.')">
-            <p class="name">Benigno Aquino Jr.</p>
-            <img class="person" src="aquino.png" alt="Aquino">
-        </div>
-        <div class="image-box" onclick="showModal('Marcelo H. del Pilar')">
-            <p class="name">Marcelo H. del Pilar</p>
-            <img class="person" src="pilar.png" alt="Pilar">
         </div>
         <div class="image-box" onclick="showModal('Antonio Luna')">
+            <img class="person" src="b7.jpg">
             <p class="name">Antonio Luna</p>
-            <img class="person" src="luna.png" alt="Luna">
+        </div>
+        <div class="image-box" onclick="showModal('Andres Bonifacio')">
+            <img class="person" src="b8.jpg">
+            <p class="name">Andres Bonifacio</p>
+        </div>
+        <div class="image-box" onclick="showModal('AMarcelo H. del Pilar')">
+            <img class="person" src="b9.jpg">
+            <p class="name">Marcelo H. del Pilar</p>
         </div>
         <div class="image-box" onclick="showModal('Lapu-Lapu')">
+            <img class="person" src="b10.jpg">
             <p class="name">Lapu-Lapu</p>
-            <img class="person" src="lapu.png" alt="Lapu-Lapu">
         </div>
     </div>
 
-    <div id="modal" class="modal">
-        <div class="modal-content">
+    <div id="modal" class="modal" onclick="closeModal()">
+        <div class="modal-content" onclick="event.stopPropagation()">
             <span class="close-btn" onclick="closeModal()">&times;</span>
-            <h2 id="hero-name"></h2>
-            <p id="hero-desc"></p>
+            <div id="modal-text"></div>
         </div>
     </div>
+    
 
     <script src="5.js"></script>
 </body>
